@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywoards" content="website">
+    <meta name="description" content="tugas saya">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <tr>
+        <td><img height="100" src="foto pmi.jpg" style="float: left; margin: 0px 9px 3px 0px;" width="100" /></div></td>
+        <td><img height="100" src="foto pmi.jpg" style="float: right; margin: 0px 9px 3px 0px;" width="100" /></div></td>
+        <h1><p align="center">Formulir Pendaftaran Donor Darah</p></h1>
+    </br>
+    </br>
+        </tr>
+    <form>
+        <fieldset>
+            <legend>Biodata Pendonor</legend>
+            <table width="40%">
+                <tr><td width="40%"><label>Nama lengkap</label></td><td> :<input type="text" name="nama_lengkap"></td></tr>
+                <tr><td width="40%"><label>Nama Panggilan</label></td><td> :<input type="text" name="nama_panggilan"></td></tr>
+                <tr><td width="40%"><label>Jenis Kelamin</label></td><td> :<input type="radio" name="kelamin">Laki-laki<br><input type="radio" name="kelamin">Perempuan</label></td></tr>
+                <tr><td width="40%"><label>Tempat, Tanggal Lahir</label></td><td> :<input type="datetime" name="ttl"></td></tr>
+                <tr><td width="40%">Agama</td><td> :
+                    <select name="agama">
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Konghucu">Konghucu</option>
+                        
+                    </select>
+                </td></tr>
+                <tr><td width="40%">Berat Badan</td><td> :<input type="number" name="berat_badan"></td></tr>
+                <tr><td width="40%">Tinggi Badan</td><td> :<input type="number" name="tinggi_badan"></td></tr>
+                <tr><td width="40%">Golongan Darah</td><td> :
+                    <label><input type="radio" name="gol_dar">O</label> 
+                    <label><input type="radio" name="gol_dar">A</label> 
+                    <label><input type="radio" name="gol_dar">B</label> 
+                    <label><input type="radio" name="gol_dar">AB</label> 
+                </td></tr>
+                <tr><td width="40%"><label>Riwayat Penyakit</label></td><td> :<input type="text" name="riwayat_penyakit"></td></tr>
+        </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kontak Pendonor</legend>
+            <table width="40%">
+                <tr><td width="40%">Email</td><td> :<input type="Email" name="email"></td></tr>
+                <tr><td width="40%">Password</td><td> : <input type="password" name="kata sandi"></td></tr>
+                <tr><td width="40%">No. HP</td><td> :<input type="number" name="no_hp"></td></tr>
+                <tr><td width="40%">Alamat</td><td> :<textarea></textarea></td></tr>
+                <tr><td width="40%">Foto</td><td> : <input type="text" photo="photo"><input type="file" name="Foto"></td></tr>
+
+            </table>
+        </fieldset>
+            <button type="submit">Kirim</button>
+            <input type="submit" name="cancel" value="cancel">
+    </form>
+    
+</body>
+</html>
